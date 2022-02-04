@@ -1,0 +1,18 @@
+@keyframes FadeAnimation {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    
+  }
+  .adios {
+    animation: FadeAnimation 1s ease-in 0.2s forwards;
+  
+    
+  }
+  
